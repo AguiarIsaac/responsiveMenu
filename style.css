@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li{
+	list-style: none;
+}
+body {
+	background:black;
+	color: white;
+}
+
+header {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	width: 100%;
+	background-color: grey;
+	height: 3rem;
+	padding: 0 1rem;
+}
+
+main {
+	width: 100%;
+	background-color: #336699;
+	height: calc(90vh - 3rem);
+}
+
+ul {
+	display: flex;
+    gap: 1rem;
+}
