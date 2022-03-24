@@ -28,7 +28,22 @@ main {
 	height: calc(90vh - 3rem);
 }
 
-ul {
+/*ul {
 	display: flex;
     gap: 1rem;
+}*/
+
+#btn_menu {
+	display: none;
+
+}
+
+@media (max-width: 600px) {
+	#btn_menu {
+		display: block;
+	}
+
+	nav {
+		display: none;
+	}
 }
